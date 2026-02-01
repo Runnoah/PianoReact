@@ -78,7 +78,7 @@ Si quieres correr este piano en tu propia máquina (¿por qué no querrías?), s
 
 ### Hecho con ❤️, 🎵 y un poco de estrés por:
 **Rubén García Cubero** Estudiante de 2º DAW  
-*Futuro Ingeniero de Software (o pianista callejero)*
+*Futuro algo (o pianista callejero)*
 
 2026
 
