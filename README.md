@@ -20,13 +20,13 @@
 
 Este es mi proyecto para demostrar que no solo sé centrar un `div`, sino que también puedo manejar estados, eventos y audio en **React**. Es un piano virtual totalmente funcional (bueno, toca notas, que ya es mucho) que convierte tu teclado QWERTY en una orquesta sinfónica... o casi.
 
-Básicamente, es una aplicación web que detecta cuando aporreas tu teclado y responde con sonidos melodiosos. Magia negra del `KeyDown` y `KeyUp`.
+Básicamente, es una aplicación web que detecta cuando aporreas tu teclado y responde con sonidos melodiosos.
 
 ## 🚀 Funcionalidades (Lo que hace esta joya)
 
 * **🎹 Teclas Receptivas:** Se iluminan cuando las tocas. Feedback visual instantáneo para que sepas que el código funciona.
 * **🔊 Sonido Polifónico:** Puedes tocar varias teclas a la vez. ¡Haz acordes! ¡Vuélvete loco!
-* **🚫 Anti-Repetición:** He programado lógica para que si dejas el dedo pegado a la tecla, no suene como una metralleta (*event.repeat* is dead).
+* **🚫 Anti-Repetición:** He programado lógica para que si dejas el dedo pegado a la tecla, no suene como una metralleta.
 * **🎨 Diseño Elegante:** CSS minimalista porque menos es más (y porque el CSS es difícil).
 
 ## 🎮 Cómo tocar (Manual de Instrucciones)
@@ -40,7 +40,7 @@ No necesitas un máster en música. Solo necesitas poner las manos sobre el tecl
 | **Mi** | `C` | **Si** | `M` |
 | **Fa** | `V` | **Negras (BEMOLES)** | `S, D, G, H, J` |
 
-> **Nota:** Si pulsas la tecla `P` no pasará nada. No es un bug, es una *feature*. Solo las teclas de la lista suenan.
+> **Nota:** Si pulsas la tecla `P` o cualquier otra que no sean esas no pasará nada. No es un bug, es una *feature*. Solo las teclas de la lista suenan.
 
 ## 🛠️ Tecnologías Usadas
 
