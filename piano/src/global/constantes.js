@@ -42,4 +42,19 @@ const NOTE_TO_KEY = {
     i: 'm',
 };
 
-export { NOTES, KEY_TO_NOTE, NOTE_TO_KEY };
+const VALID_KEYS = [
+    'z',
+    's',
+    'x',
+    'd',
+    'c',
+    'v',
+    'g',
+    'b',
+    'h',
+    'n',
+    'j',
+    'm'
+]
+
+export { NOTES, KEY_TO_NOTE, NOTE_TO_KEY, VALID_KEYS };

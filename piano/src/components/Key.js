@@ -21,6 +21,7 @@ class Key extends React.Component {
     keyIsPressed = (note, pressedKeys) => {
         return _.includes(pressedKeys, NOTE_TO_KEY[note]);
     }
+
     render() {
 
         let keyClassName = "key";

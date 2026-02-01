@@ -25,6 +25,6 @@
     z-index: 2;
 }
 
-.key.pressed .key.flay.pressed {
+.key.pressed, .key.flay.pressed {
     background-color: #00d8ff;
 }
