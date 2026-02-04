@@ -1,11 +1,6 @@
 // - notas
 // - si es blanca o negra
-// - isPlayinh (cambiar color)
-
-// this.props.note. coge el prop que se pasa a la "Key" (note)
-
-// noteIsFlat -> Cogemos el propio valor de las notas para ver si es negra o blanca
-// keyisPressed -> Cogemos la nota y la comparamos para ver si se ha presionado
+// - isPlaying (cambiar color)
 
 import React from 'react';
 import _ from 'lodash';
@@ -14,10 +9,13 @@ import './Key.css';
 
 class Key extends React.Component {
 
-    // Se valida aquí
+
+    // Detecta si una tecla es negra o blanca.
     noteIsFlat = (note) => {
         return note.length > 1;
     }
+    
+    //Compara la nota actual con la lista de teclas presionadas.
     keyIsPressed = (note, pressedKeys) => {
         return _.includes(pressedKeys, NOTE_TO_KEY[note]);
     }

@@ -1,30 +1,53 @@
-
 .key {
-    background-color: white;
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
     height: 300px;
     width: 60px;
-    border: 2px solid black;
+    border: 1px solid #ccc;
+    border-bottom: 4px solid #999;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    position: relative;
+    transition: all 0.1s ease;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .key-text {
-    position:relative;
-    color:black;
-    font-weight: 600;
-    font-size:20px;
-    margin-top:240px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #444;
+    font-weight: bold;
+    font-size: 18px;
     pointer-events: none;
+    user-select: none;
 }
 
 .key.flat {
-    position: relative;
-    background-color: black;
+    background: linear-gradient(to bottom, #333 0%, #000 100%);
     margin-left: -17px;
     margin-right: -17px;
-    height: 200px;
-    width: 30px;
+    height: 180px;
+    width: 34px;
+    border: 1px solid #000;
+    border-bottom: 3px solid #222;
+    border-radius: 0 0 3px 3px;
     z-index: 2;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.4);
 }
 
-.key.pressed, .key.flay.pressed {
+.key.pressed {
     background-color: #00d8ff;
+    background: linear-gradient(to bottom, #00d8ff 0%, #00a3cc 100%);
+    box-shadow: 0 0 20px #00d8ff, inset 0 2px 5px rgba(0,0,0,0.2);
+    transform: translateY(2px);
+    border-bottom: 1px solid #008fb3;
+}
+
+.key.flat.pressed {
+    background: linear-gradient(to bottom, #00d8ff 0%, #007acc 100%);
+    box-shadow: 0 0 15px #00d8ff;
+    transform: translateY(2px);
+    border-bottom: 1px solid #005c99;
 }
